@@ -2,7 +2,7 @@
 manifest
 ADDED from C:\Users\katarzyna.jedrzejews\Desktop\Workspace\Test\app\src\main\AndroidManifest.xml:2:1-20:12
 	package
-		ADDED from C:\Users\katarzyna.jedrzejews\Desktop\Workspace\Test\app\src\main\AndroidManifest.xml:3:5-30
+		ADDED from C:\Users\katarzyna.jedrzejews\Desktop\Workspace\Test\app\src\main\AndroidManifest.xml:3:5-34
 		INJECTED from C:\Users\katarzyna.jedrzejews\Desktop\Workspace\Test\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\katarzyna.jedrzejews\Desktop\Workspace\Test\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -34,7 +34,7 @@ MERGED from [com.android.support:support-v4:23.4.0] C:\Users\katarzyna.jedrzejew
 		ADDED from C:\Users\katarzyna.jedrzejews\Desktop\Workspace\Test\app\src\main\AndroidManifest.xml:11:9-40
 	android:name
 		ADDED from C:\Users\katarzyna.jedrzejews\Desktop\Workspace\Test\app\src\main\AndroidManifest.xml:6:9-35
-activity#com.test.tested.activity.MainActivity
+activity#com.yeetyupb.dagger.activity.MainActivity
 ADDED from C:\Users\katarzyna.jedrzejews\Desktop\Workspace\Test\app\src\main\AndroidManifest.xml:12:9-17:20
 	android:name
 		ADDED from C:\Users\katarzyna.jedrzejews\Desktop\Workspace\Test\app\src\main\AndroidManifest.xml:12:19-56

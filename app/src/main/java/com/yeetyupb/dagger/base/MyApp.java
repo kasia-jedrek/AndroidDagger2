@@ -1,8 +1,8 @@
-package com.test.tested.base;
+package com.yeetyupb.dagger.base;
 
 import android.app.Application;
 
-import com.test.tested.dagger.Injector;
+import com.yeetyupb.dagger.dagger.Injector;
 
 
 public class MyApp extends Application {

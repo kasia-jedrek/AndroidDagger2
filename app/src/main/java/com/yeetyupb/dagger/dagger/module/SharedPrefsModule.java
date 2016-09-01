@@ -1,4 +1,4 @@
-package com.test.tested.dagger.module;
+package com.yeetyupb.dagger.dagger.module;
 
 import android.app.Application;
 import android.content.SharedPreferences;

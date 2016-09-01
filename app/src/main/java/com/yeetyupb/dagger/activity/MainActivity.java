@@ -1,12 +1,12 @@
-package com.test.tested.activity;
+package com.yeetyupb.dagger.activity;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
-import com.test.tested.R;
-import com.test.tested.dagger.Injector;
+import com.yeetyupb.dagger.R;
+import com.yeetyupb.dagger.dagger.Injector;
 
 import javax.inject.Inject;
 

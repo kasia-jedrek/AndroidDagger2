@@ -1,9 +1,10 @@
-package com.test.tested.dagger.component;
+package com.yeetyupb.dagger.dagger.component;
 
-import com.test.tested.activity.MainActivity;
-import com.test.tested.base.MyApp;
-import com.test.tested.dagger.module.AppModule;
-import com.test.tested.dagger.module.SharedPrefsModule;
+
+import com.yeetyupb.dagger.activity.MainActivity;
+import com.yeetyupb.dagger.base.MyApp;
+import com.yeetyupb.dagger.dagger.module.AppModule;
+import com.yeetyupb.dagger.dagger.module.SharedPrefsModule;
 
 import javax.inject.Singleton;
 

@@ -1,10 +1,12 @@
-package com.test.tested.dagger;
+package com.yeetyupb.dagger.dagger;
 
-import com.test.tested.base.MyApp;
-import com.test.tested.dagger.component.AppComponent;
-import com.test.tested.dagger.component.DaggerAppComponent;
-import com.test.tested.dagger.module.AppModule;
-import com.test.tested.dagger.module.SharedPrefsModule;
+
+import android.app.Application;
+
+import com.yeetyupb.dagger.dagger.component.AppComponent;
+import com.yeetyupb.dagger.dagger.component.DaggerAppComponent;
+import com.yeetyupb.dagger.dagger.module.AppModule;
+import com.yeetyupb.dagger.dagger.module.SharedPrefsModule;
 
 import java.util.Objects;
 
@@ -15,7 +17,7 @@ public class Injector {
 
     private Injector() {}
 
-    public static void initializeApplicationComponent(MyApp app) {
+    public static void initializeApplicationComponent(Application app) {
         applicationComponent = DaggerAppComponent.builder()
                 .appModule(new AppModule(app))
                 .sharedPrefsModule(new SharedPrefsModule())
